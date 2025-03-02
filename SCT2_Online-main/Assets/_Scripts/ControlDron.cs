@@ -30,7 +30,7 @@ public class ControlDron : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(controller.height);
+       
         if (isFalling)
         {
             ApplyGravity();
